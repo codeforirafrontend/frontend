@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.text-primary{
+  color: rgb(49, 245, 0);
+  font-style: italic;
+}
+body{
+  background: url("showcase5.jpg")no-repeat center center/cover;
+  height: 100vh;
+}
+#container{
+  text-align: center;
+  padding: 5% 8%;
+  margin-right: 50%;
+}
+#container p{
+  color: #fff;
+}
+#container input{
+  height: 2rem;
+  width: 100%;
+  background: rgb(182, 196, 207);
+  color:  rgb(245, 0, 41);
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 3rem;
+}
