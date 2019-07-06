@@ -1,0 +1,26 @@
+body{
+
+	background-image:url(img/mac.jpg);
+	background-repeat: no-repeat;
+}
+
+input{
+
+  width:170px;
+  height: 30px;
+   margin-left:490px;
+   margin-top: 20px;
+ color:green;
+  outline: none;
+
+}
+
+p{
+
+	 margin-left:493px;
+     font-size: 20px;
+   padding-top: 80px;
+   color: white;
+}
+
+
