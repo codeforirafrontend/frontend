@@ -1,0 +1,26 @@
+body
+{
+    margin: 0;
+    background: url('index.png') ;
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+text-align: center;
+color: #eee;
+}
+p{
+  font-size: 50px;
+  text-align: center;
+}
+
+div
+{
+  margin:100px;
+  padding:50px;
+  text-align: center;
+
+}
