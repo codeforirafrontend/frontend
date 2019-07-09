@@ -1,0 +1,16 @@
+body{
+    background-image: url("https://cdn04.masterstudies.com/element_db/53/53605_pexels-photo-216578.jpg");
+    background-repeat: no-repeat ;
+    background-size: 100% 100%;
+   }
+p {
+  color:#c0392b;
+  font-size:  20px;
+}    
+h1{
+  color:#c0392b;
+} 
+input{
+width:200pxpx; height :50px;
+outline: none;              
+}     
