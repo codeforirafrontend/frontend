@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* utility classes */
+#logo-span{
+    display: inline;
+    /* align-items: center; */
+    font-size: 2rem;
+}
+.text-primary{
+    color: rgb(255, 136, 0);
+}
+.container{
+    padding: 2rem 2rem;
+    align-items: center;
+    margin: auto;
+}
+
+/* navbar */
+#navbar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background: #22353c;
+    justify-content: space-between;
+    height: 4rem;
+}
+#navbar .logo{
+    display: flex;
+    color: #ffff;
+    align-items: center;
+    margin-left: 8%;
+}
+#navbar ul {
+    display:flex;
+    align-items: center;
+    margin-right: 8%;
+    list-style: none;
+}
+#navbar ul li a {
+    display: flex;
+    color: #ffff;
+    padding: 1.25rem;
+}
+#navbar i{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0.3rem;
+    /* font-size: 0px; */
+}
+#navbar ul li a:hover,
+#navbar ul li a.current
+{
+    background: #455455;
+    color: rgb(255, 136, 0);
+}
+
+/*! info sction */
+#info{
+    display: flex;
+    background: url("info2.jpg")no-repeat center center/cover fixed;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+#info .container{
+    width: 80%;
+    height: 100%;
+    padding-top: 15%;
+    overflow: hidden;
+    margin:auto;
+}
+#info h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+#info p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background: rgba(41, 37, 32, 0.753);
+}
+
+#info a.btn{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    align-content: center;
+    border-bottom: 3px solid #fff; 
+    border-radius: 25px;
+    margin: 3rem 30%;
+    overflow: hidden;
+    box-shadow: 0px 15px 10px -5px rgba(0,0,0,0.75);
+}
+#info a.btn:hover{
+    border-top: 3px solid #fff; 
+}
+#info a:link.btn{
+    color: #dea26c;
+    border-color: #dea26c;
+}
+#info a:visited.btn{
+    color: rgb(207, 206, 199);
+    border-color:  rgb(207, 206, 199);
+}
+#info a:hover.btn{
+    color: rgb(255, 136, 0);
+    border-color: rgb(255, 136, 0);
+}
+
+/* fetures */
+.box{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 20px;
+}
+.box i{
+    margin-bottom: 10px;
+    padding: 30px;
+    border: 3px solid ;
+    border-radius: 50%;
+}
+.bg-light{color: #333;}
+.bg-primary{
+    color: rgb(255, 136, 0);;
+    background: #132931;
+}
+
+
+
