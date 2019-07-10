@@ -1,0 +1,32 @@
+<!doctype> 
+
+<html>
+ 
+  <body>
+    
+<h1> muntadher</h1>
+
+<p>  muntadher   </p>
+
+
+
+<img src="m.jpg" widht="100px" height="100"/>
+
+<br> </br>
+
+<h1> table</h1>
+
+<table border="3">
+
+<tr><th>firstname</th><th>lastname</th><th>age</th></tr>
+<tr><td>muntadher</td><td>abaas</td><td>31</td></tr>
+<tr><td>ammad</td><td>ali</td><td>25</td></tr>
+<tr><td>hassan</td><td>ali</td><td>20</td></tr>
+
+
+
+
+</table>
+
+  </body>
+</html>
