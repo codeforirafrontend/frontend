@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task4</title>
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="https://www.google.com/?hl=ar">Google</a></li>
+  <li><a href="https://ar-ar.facebook.com/">Facebook</a></li>
+  <li><a href="https://twitter.com/login?lang=ar">Twitter</a></li>
+  <li><a href="https://www.instagram.com/">Instagram</a></li>
+</ul>
+<br/>
+<br/>
+<i class="fas fa-cloud" style="font-size:60px;color:lightblue;"></i>
+
+<br/>
+<br/>
+<h2>Transistor</h2>
+<p id="p1">A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit<span id="dots">...</span><span id="more">A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals. Because the controlled (output) power can be higher than the controlling (input) power, a transistor can amplify a signal. Today, some transistors are packaged individually, but many more are found embedded in integrated circuits. .</span> <a onclick="myFunction()" id="myBtn">Read more</a></p>
+
+
+<br/>
+<br/>
+<div>
+    <p>A diode is a two-terminal electronic component that conducts current primarily in one direction (asymmetric conductance); it has low (ideally zero) resistance in one direction, and high (ideally infinite) resistance in the other. A diode vacuum tube or thermionic diode is a vacuum tube with two electrodes, a heated cathode and a plate, in which electrons can flow in only one direction, from cathode to plate. A semiconductor diode, the most commonly used type today, is a crystalline piece of semiconductor material with a p–n junction connected to two electrical terminals.[5] Semiconductor diodes were the first semiconductor electronic devices. The discovery of asymmetric electrical conduction across the contact between a crystalline mineral and a metal was made by German physicist Ferdinand Braun in 1874. Today, most diodes are made of silicon, but other materials such as gallium arsenide and germanium are used.[
+       
+
+    </p>
+
+</div>
+
+</body>
+</html>
