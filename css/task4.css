@@ -1,0 +1,66 @@
+body{background-color: coral
+
+
+
+
+}
+ul{
+    list-style-type:circle;
+   
+}
+ *{box-sizing: border-box;}
+$bg-color: rgb(100,100,100);
+
+body {background-color: chocolate;}
+header {
+  background-color: rgba(243, 8, 8, 0.89);
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+.panel-wrapper {
+  position: relative;
+}
+
+.btn {
+  color: chocolate;
+  background: #000;
+  border-radius: 1.5em;
+  left: 30%;
+  padding: 1em;
+  text-decoration: none;
+  width: 40%;
+}
+.show, .hide {
+  position: absolute;
+  bottom: -1em;
+  z-index: 100;
+  text-align: center;
+}
+
+.hide {display: none;}
+.show:target {display: none;}
+.show:target ~ .hide {display: block;}
+.show:target ~ .panel {
+   max-height: 19px; 
+}
+.show:target ~ .fade {
+  margin-top: 0;
+}
+
+.panel {
+  position: relative;
+  margin: 2em auto;
+  width: 70%;
+  max-height: 100px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+}
+.fade {
+  background: linear-gradient(to bottom, rgba($bg-color,0) 0%,rgba($bg-color,1) 75%);
+  height: 100px;
+  margin-top: -100px;
+  position: relative;
+}
+
