@@ -1,0 +1,18 @@
+body{
+    background-image: url("sea.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p {
+    color: cornsilk;
+    position: inherit;
+    size: 200px;
+
+
+}
+label{
+    color: aliceblue;
+}
+h3{
+    color: darksalmon;
+}
