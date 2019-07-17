@@ -1,0 +1,13 @@
+body{
+    background-image:url('m.jpg');
+}
+p{
+    color:red;
+}
+input{
+    height: 50px;
+    width: 200px;
+    margin: 20px 40px;
+    padding: 6px 12px;
+   
+}
