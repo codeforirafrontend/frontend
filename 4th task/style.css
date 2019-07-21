@@ -81,7 +81,7 @@ a{
 #info .container{
     width: 80%;
     height: 100%;
-    padding-top: 15%;
+    padding-top: 10%;
     overflow: hidden;
     margin:auto;
 }
@@ -99,7 +99,7 @@ a{
     color: rgb(255, 255, 255);
     line-height: 35px;
     padding: 1rem 2rem;
-    border-radius: 5px;
+    border-radius: 10px;
     background: rgba(41, 37, 32, 0.753);
 }
 
