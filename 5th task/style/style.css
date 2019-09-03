@@ -1,0 +1,295 @@
+/* utility classes */
+.btn {
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: all .3s;
+}
+.btn-white {
+    color: aliceblue ;
+    border: 1px solid white;
+
+}
+.btn-white:hover {
+    background: white;
+    color: rgb(14, 180, 221)
+}
+.card {
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2) ,-2px -2px 5px rgba(0,0,0,.2); 
+}
+.card .media .mt-1 {
+    text-align: center;
+}
+.card .media p {color: rgb(102, 100, 97)}
+
+/* navbar */
+.navbar {
+    height: 5rem;
+}
+.navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+    z-index: 1000;
+}
+.navbar .contaner {
+    max-width: 1200px;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+.nav-item {
+    position: relative;
+}
+.nav-item .nav-link {
+    border-bottom: 2px solid transparent;
+    transition: border-width 0.6s linear;
+
+}
+.nav-item .nav-link::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid red;
+    width: 0;
+    position: absolute;
+    left: 0;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+
+}
+.nav-item .nav-link:hover::after {
+    width: 100%;
+
+}
+
+.navbar-nav > .nav-item:not(:last-child) {
+    margin-right: 20px;
+}
+.navbar-nav .nav-link:not(:last-child) {
+    margin-right: 50rem !important;
+}
+.navbar-light .navbar-toggler {
+    z-index: 2000;
+}
+
+/* section header */
+.header {
+
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-size: 100%;
+    background: url(../img/bg1.jpg)no-repeat center center/cover;
+}
+.header .header-contaner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: 1.1rem;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0 10%;
+    line-height: 160%;
+    
+}
+.header .header-contaner .header-text {
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+/* section services */
+.services{
+    background-color: rgb(250, 245, 249);
+    padding: 5rem;
+}
+.services .service-header h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+/* section ourfood */
+.ourFood {
+    background: rgb(79, 189, 233);
+    padding: 5rem
+}
+.ourFood .text-primary {
+    text-transform: uppercase;
+}
+.ourFood h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700
+}
+.ourFood .link {
+    display: inline-block;
+    border: 2px solid white;
+    margin-bottom: 1rem;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.ourFood .link .bt-link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: .5rem 1rem;
+} 
+.ourFood .link > .bt-link:not(:last-child) {
+    border-right: 2px solid white;
+}
+.ourFood .link > .bt-link:first-child {
+    background: white;
+    color: rgb(86, 156, 221);
+}
+
+.ourFood .card2 {
+    position: relative;
+    overflow: hidden;
+    height: 17rem;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 1.7rem;
+}
+.ourFood .card2 .bg-card {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.ourFood .card2 .price {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    top: 5%;
+    color: aliceblue;
+    padding: 0 1rem;
+    background: rgb(123, 123, 255);
+    font-size: 120%;
+}
+
+.ourFood .card2 .content {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    bottom: 0;
+    color: aliceblue;
+    text-align: center;
+    background: rgba(0, 174, 255, 0.582);
+    transform: translateY(100%);
+    transition: all .5s;
+    padding-top: .5rem
+
+}
+.ourFood .card2 .content h4 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+.ourFood .card2 .content p {
+    font-size: 1rem;
+    margin:0;
+}
+.ourFood .card2 .content .btn {
+    border-radius: 100px;
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+
+}
+
+
+.ourFood .card2:hover .content {
+    transform: translateY(0);
+
+}
+.ourFood .btn-con{
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.ourFood .btn-white {
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* section testimonials */
+.testimonials{
+    background-color: rgb(250, 245, 249);
+    padding: 5rem;
+}
+.testimonials .service-header h1 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.testimonials .card {
+    text-align: center;
+}
+.testimonials .card img {
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+}
+.testimonials .card h3 {
+    color: rgb(57, 157, 238);
+    text-transform: uppercase;
+    font-weight: 700
+}
+.testimonials .card p {
+    color: rgb(122, 122, 128);
+}
+
+.footer {
+    display: inherit;
+    background: rgb(36, 102, 245);
+    text-align: center;
+    padding: 1rem
+}
+.footer p {
+    display: contents;
+    color: white;
+}
+.footer span{
+    font-weight: 800;
+}
+
+
+
+/* animation */
+@media screen and (max-width: 991px){
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        transform: translateY(100%);
+        padding: 20px;
+        text-align: center;
+        font-size: 1.5rem;
+        transition: auto;
+        z-index: 100;
+        animation: move-bo 0.5s;
+    }
+}
+@keyframes move-bo {
+    0%{
+        transform: translateY(-100%);
+    }
+
+    100%{
+        transform: translateY(100%);
+
+    }
+}
