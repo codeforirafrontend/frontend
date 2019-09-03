@@ -293,3 +293,43 @@
 
     }
 }
+
+@media screen and (max-width: 370px) {
+    .header .header-contaner {
+        font-size: 1rem;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0 5%;
+        line-height: 140%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .ourFood .link {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .services {
+        padding: 2rem 0rem;
+    }
+    .ourFood {
+        padding: 2rem 1.5rem;
+    }
+    .ourFood {
+        position: relative;
+    }
+    .ourFood .link {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: auto;
+    }
+    .testimonials {
+        padding: 2rem 0rem;
+    }
+}
