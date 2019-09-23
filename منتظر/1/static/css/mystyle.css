@@ -1,0 +1,34 @@
+#link{
+    background-color: #34495e;
+}
+
+.card-title{
+text-align: center;
+text-decoration-color: aliceblue;
+
+}
+
+.card{
+    background: #ecf0f1;
+}
+
+#About{
+    background-color: #ecf0f1;
+}
+
+.code{
+    direction: rtl;
+    text-align: right; 
+    
+}
+
+.navbar{
+    direction: rtl;
+    text-align: right;   
+}
+
+.card1{
+    background:#30336b;
+    font-size: 20px;
+
+}
