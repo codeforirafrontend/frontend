@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mystyle2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <p class="p-label"> تسقى بكلفة</p>
+        <div class="input-group">
+            <input id="tbk-kg" type="number" class="input-value" required>
+            <label for="tbk-kg" class="input-label">عدد الكيلوغرامات:</label>
+        </div>
+        <div class="input-group">
+            <input id="tbk-price" type="number" class="input-value" required>
+            <label for="tbk-price" class="input-label">سعر الكيلوغرام:</label>
+        </div>
+        <div id="tbk" class="input-group">
+            <input id="tbkv" type="text" class="input-value-v" readonly>
+            <label for="tbkv" class="input-label">مقدار الزكاة:</label>
+        </div>
+        <br></br>
+        <!-- *tttttttttttttttttttttt -->
+        <p class="p-label"> تسقى بدون كلفة</p>
+        <div class="input-group">
+            <input id="tbbk-kg" type="number" class="input-value" required>
+            <label for="tbbk-kg" class="input-label">عدد الكيلوغرامات:</label>
+        </div>
+        <div class="input-group">
+            <input id="tbbk-price" type="number" class="input-value" required>
+            <label for="tbbk-price" class="input-label">سعر الكيلوغرام:</label>
+        </div>
+        <div id="tbbk" class="input-group">
+            <input id="tbbkv" type="text" class="input-value-v" readonly>
+            <label for="tbbkv" class="input-label">مقدار الزكاة:</label>
+        </div>
+
+        <br></br>
+
+        <p class="p-label"> تسقى مناصفة</p>
+        <div class="input-group">
+            <input id="tm-kg" type="number" class="input-value" required>
+            <label for="tm-kg" class="input-label">عدد الكيلوغرامات:</label>
+        </div>
+        <div class="input-group">
+            <input id="tm-price" type="number" class="input-value" required>
+            <label for="tm-price" class="input-label">سعر الكيلوغرام:</label>
+        </div>
+        <div id="tm" class="input-group">
+            <input id="tmv" type="text" class="input-value-v" readonly>
+            <label for="tmv" class="input-label">مقدار الزكاة:</label>
+        </div>
+
+
+        <div class="input-group">
+           
+            <a href="#" class="btn" onclick="getprice()">احتسب الزكاة</a>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
