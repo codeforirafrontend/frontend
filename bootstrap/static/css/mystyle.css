@@ -1,5 +1,5 @@
 .jumbotron{
-background-image: url("/static/img/backgriund-img.jpg");
+background-image: url("../img/backgriund-img.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 color:#bdc3c7;
@@ -55,7 +55,7 @@ padding-bottom: 50px;
 }
 #bussnisse{
 
-    background-image: url("/buss/buss1.jpg"); 
+    background-image: url("../img/buss1.jpg"); 
     min-height: 600px;
     background-attachment: fixed;
     background-size: cover;
